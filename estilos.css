@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+/*---------------HEADER--------------*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    color: #fff;
+    /*background: #222629;*/
+    background: #002033;
+    box-shadow: inset -0.25em 0 0.25em 0 rgba(0,0,0,.1);
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header .arriba{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    position: relative;
+    margin: 1.75em 1.5em 1.5em;
+    min-height: 48px;
+    cursor: default;
+}
+
+.logoimg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+
+.logo h1{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+.logo p{
+    position: relative;
+    display: block;
+    font-size: .8em;
+    color: rgba(255,255,255,.5);
+    line-height: 1.25em;
+    margin: .5em 0 0;
+}
+
+
+
+/*                    MENU                       */
+nav{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    display: list-item;
+}
+
+ul li a{
+    display: block;
+    padding: .8em 1.5em;
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    transition: none;
+}
+
+ul li a:hover{
+    background: rgba(0,0,0,.15);
+    box-shadow: inset 0 0 0.25em 0 rgba(0,0,0,.125);
+    color: #fff;
+}
+
+
+
+/*                   ABAJO                               */
+
+.abajo{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/*-------------------MAIN  INDEX----------------------*/
+
+#carousel{
+    height: max-content;
+    width: 1350px;
+    transform: translateX(250px);
+}
+
+.slider_info{
+    font-size: 30px;
+    color: white;
+    background-color: darkred;
+
+}
+
+.slider_info{
+    font-size: 30px;
+    color: white;
+    background-color: darkred;
+}
+
+.main{
+    transform: translateX(250px);
+    width: 1350px;
+    height: 300px;
+}
+
+
+
+
+
+/*-------------------------NOSOTROS---------------------*/
+
+.nosotrosbanner{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    padding: 0.5rem;
+    background-color: blanchedalmond;
+}
+
+
+/*-----------------------------GALERIA------------------*/
+
+
+.grid-container{
+    transform: translateX(250px);
+    width: 1350px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 10px;
+    padding: 10px;
+    grid-auto-flow: dense;
+}
+
+.grid-item{
+    background-color: firebrick;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item:hover{
+    filter: opacity(0.9);
+    transform: scale(1.03);
+}
+
+.ancho{
+    grid-column: span 2;
+}
+
+.alto{
+    grid-row: span 2;
+}
+
+
+
+
+/*------------------------PROMOCIONES---------------*/
+.container_cards{
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(250px);
+    width: 1350px;
+}
+
+
+
+
+
+/*-----------------------NOSOTROS--------------*/
+
+.preguntas{
+    transform: translateX(250px);
+    width: 1350px;
+    padding: 2px;
+    height: 755px;
+    background-color: gray;
+}
+
+.link_contacto h4{
+    text-decoration-color: red;
+    font-size: 20px;
+}
