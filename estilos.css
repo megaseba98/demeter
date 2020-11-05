@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-  }
+}
 /*---------------HEADER--------------*/
 a {
     text-decoration: none;
@@ -213,11 +213,34 @@ ul li a:hover{
     transform: translateX(250px);
     width: 1350px;
     padding: 2px;
-    height: 755px;
-    background-color: gray;
+    height: auto;
 }
 
 .link_contacto h4{
     text-decoration-color: red;
     font-size: 20px;
+}
+
+
+/*-------------------CONTACTO-------------------*/
+
+.main{
+    transform: translateX(250px);
+    width: 1350px;
+    height: 755px;
+}
+
+
+.formulario{
+    padding: 20px;
+    padding-top: 25px;
+    width: auto;
+    height: auto;
+    background-color: inherit;
+}
+
+main h1{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
 }
